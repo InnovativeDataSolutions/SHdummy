@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Smart Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_configure_device">ConfigureDevice</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_controller_menu">ControllerMenu</string>
+    <string name="title_activity_five_gang">FiveGang</string>
+    <string name="title_activity_four_gang">FourGang</string>
+    <string name="title_activity_three_gang">ThreeGang</string>
+    <string name="title_activity_two_gang">TwoGang</string>
+    <string name="title_activity_one_gang">OneGang</string>
+    <string name="title_activity_fan_ctrl">FanCtrl</string>
+    <string name="title_activity_location_menu">LocationMenu</string>
+    <string name="title_activity_swipescreen">Swipescreen</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ids.smarthome">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Startup"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ConfigureDevice"
+            android:label="@string/title_activity_configure_device"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Registration"
+            android:label="@string/title_activity_registration"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ControllerMenu"
+            android:label="@string/title_activity_controller_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FiveGang"
+            android:label="@string/title_activity_five_gang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FourGang"
+            android:label="@string/title_activity_four_gang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ThreeGang"
+            android:label="@string/title_activity_three_gang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TwoGang"
+            android:label="@string/title_activity_two_gang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OneGang"
+            android:label="@string/title_activity_one_gang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FanCtrl"
+            android:label="@string/title_activity_fan_ctrl"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LocationMenu"
+            android:label="@string/title_activity_location_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Swipescreen"
+            android:label="@string/title_activity_swipescreen"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
